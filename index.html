@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng. Maxamed | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome u baahan tahay hadhow icons-ka -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Eng.<span>Maxamed</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm Eng. Maxamed</h1>
+            <p>Frontend Developer & Graphic Designer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a passionate Full-Stack Developer and Graphic Designer with a strong foundation in building responsive, user-friendly web applications and creating impactful visual identities.</p>
+                    <p>With expertise in HTML, CSS, JavaScript, and modern frameworks, I bridge the gap between design and development to deliver high-quality digital solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <!-- `projects-grid` wuxuu hadda si automatic ah isugu xiriirinayaa mashaariicda iyadoo geesuhu xoodan yihiin -->
+            <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                
+                <!-- Mashruuca 1: Eid Design -->
+                <div class="project-card" style="width: 100%; padding: 0; overflow: hidden; border-radius: 8px; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <div class="project-img-container" style="width: 100%; height: 240px; overflow: hidden; position: relative; background: #f0f0f0;">
+                        <img src="/eid.jpg" alt="Eid Design" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;">
+                        <!-- Icon-ka dusha saaran -->
+                        <div style="position: absolute; bottom: 15px; right: 15px; background: rgba(0, 123, 255, 0.9); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="project-info" style="padding: 25px; text-align: left;">
+                        <h3 style="margin-bottom: 10px; font-size: 1.4rem; color: #111;">Eid Mubarak Design</h3>
+                        <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">Creative and modern Eid greeting visual identity, designed for corporate and social media branding campaigns.</p>
+                    </div>
+                </div>
+
+                <!-- Mashruuca 2: CV / Portfolio Design -->
+                <div class="project-card" style="width: 100%; padding: 0; overflow: hidden; border-radius: 8px; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <div class="project-img-container" style="width: 100%; height: 240px; overflow: hidden; position: relative; background: #f0f0f0;">
+                        <img src="/cv.jpg" alt="CV Design" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;">
+                        <!-- Icon-ka dusha saaran -->
+                        <div style="position: absolute; bottom: 15px; right: 15px; background: rgba(0, 123, 255, 0.9); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
+                            <i class="fa-solid fa-file-invoice"></i>
+                        </div>
+                    </div>
+                    <div class="project-info" style="padding: 25px; text-align: left;">
+                        <h3 style="margin-bottom: 10px; font-size: 1.4rem; color: #111;">Professional CV Layout</h3>
+                        <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">A clean, modern, and high-converting curriculum vitae layout tailored specifically for developers and creative professionals.</p>
+                    </div>
+                </div>
+
+                <!-- Mashruuca 3: Brand Branding (Waxaad u beddeli kartaa sawir kasta) -->
+                <div class="project-card" style="width: 100%; padding: 0; overflow: hidden; border-radius: 8px; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <div class="project-img-container" style="width: 100%; height: 240px; overflow: hidden; position: relative; background: #f0f0f0;">
+                        <!-- Icon-ka dusha saaran -->
+                        <div style="position: absolute; bottom: 15px; right: 15px; background: rgba(0, 123, 255, 0.9); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <div class="project-info" style="padding: 25px; text-align: left;">
+                        <h3 style="margin-bottom: 10px; font-size: 1.4rem; color: #111;">Visual Brand Identity</h3>
+                        <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">Complete graphic design package including custom logos, channel banners, and social media assets.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind or want to collaborate? Drop a message!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Eng. Maxamed. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
